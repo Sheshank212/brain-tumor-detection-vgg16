@@ -1,0 +1,37 @@
+# Large model files (exceeding GitHub's 100MB limit)
+models/*.keras
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints
+
+# ML specific
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+wandb/
+mlruns/
