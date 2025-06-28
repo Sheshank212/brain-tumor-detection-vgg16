@@ -28,6 +28,26 @@ VGG16 (ImageNet pre-trained, frozen early layers)
 
 ![Model Architecture](results/vgg16_brain_model.png)
 
+## 📊 Dataset
+
+The model is trained on the **Brain MRI Images for Brain Tumor Detection** dataset from Kaggle.
+
+**Dataset Source**: [Kaggle - Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+
+### Dataset Statistics
+- **Total Images**: 252 brain MRI scans
+- **Classes**: Binary classification
+  - `yes/` folder: 154 images with brain tumors  
+  - `no/` folder: 98 images without tumors
+- **Image Format**: JPEG/JPG images of varying sizes
+- **Preprocessing**: All images resized to 224×224 pixels for VGG16 compatibility
+
+### Dataset Characteristics
+- **Medical Domain**: Real brain MRI scans suitable for medical AI research
+- **Class Imbalance**: Slightly more tumor cases (61%) than normal cases (39%)
+- **Quality**: High-resolution MRI scans from medical imaging equipment
+- **Diversity**: Various tumor types, sizes, and brain orientations
+
 ## 📊 Performance Results
 
 ### Cross-Validation Results
