@@ -1,4 +1,4 @@
-# Enhanced VGG16-based Brain Tumor Detection Script (with Cross-Validation, Checkpointing, Fine-Tuning)
+# importing all the required libraries
 
 import os
 import cv2
